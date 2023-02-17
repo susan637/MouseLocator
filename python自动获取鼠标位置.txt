@@ -1,0 +1,6 @@
+import pyautogui
+
+while True:
+    # 获取鼠标当前的位置
+    x, y = pyautogui.position()
+    print(f'当前鼠标的坐标为：({x}, {y})')
